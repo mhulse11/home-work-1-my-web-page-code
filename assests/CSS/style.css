@@ -24,7 +24,7 @@
  
     background-color: chartreuse;
     height: 200px;
-    width: 200px;
+    width: 350px;
     padding: 50px;
     
 }
@@ -60,5 +60,30 @@
     display: grid;
     grid-template-rows: 33% 33% 33%;
     grid-template-areas: "taskorganizer" "UIdesign" "webdesign";
-    background-color: blue;
+    background-color:none;
+    height: 500px;
+}
+.bmc-btn-text {
+    margin-left: 1000px;
+    display: inline;
+    line-height: 0;
+    cursor: pointer;
+    color: #B51A17;
+    text-decoration: underline;
+    background-color: #FF5F5F;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 28px;
+    text-decoration: none !important;
+    display: inline-flex !important;
+    align-items: center;
+    margin:100 100 100 100;
+}
+.govhi1{
+    display: inline;
+    height: 300px;
+    width: 300px;
+}
+.dept_of_edu{
+    float:right
 }
